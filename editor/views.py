@@ -5,58 +5,8 @@ from .models import CodeShareModel
 from django.contrib.auth.models import User
 
 
-demo_code = '''import random
-
-waves = []
-
-
-class Wave:
-    def __init__(self, color, h):
-        self.waveColor = color
-        self.waveHeight = h
-        self.offset = random.randint(100, 200)
-        self.t = 0
-
-    def display(self):
-        xoff = 0
-        fill(self.waveColor)
-
-        beginShape()
-        for x in range(0, canvasWidth + 16, 15):
-            noise_value = noise(xoff + self.offset, self.t + self.offset)
-            yoff = noise_value * 200
-            y = self.waveHeight - yoff
-            vertex(x, y)
-            xoff += 0.08
-        vertex(canvasWidth + 100, canvasHeight)
-        vertex(0, canvasHeight)
-        endShape(p.CLOSE)
-
-    def update(self):
-        self.t += 0.005
-
-
-def setup():
-    createCanvas(800, 400)
-
-    noiseDetail(1.7, 1.3)
-    noStroke()
-
-    for i in range(5):
-        a = 255 - 50 * i
-        c = color("#5dbe8a")
-        c.setAlpha(a)
-        h = canvasHeight - 40 * i
-        w = Wave(c, h)
-        waves.append(w)
-
-
-def draw():
-    background(230)
-
-    for w in waves:
-        w.display()
-        w.update()
+demo_code = '''print("Hello AI悦创")
+print("长期招收一对一学员，微信：Jiabcdefh")
 '''
 
 
