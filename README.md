@@ -1,9 +1,5 @@
-# p5py
- 
-[P5py.com](http://p5py.com) lets you write p5.js programs in python.
+# p5py development branch
 
-We use brython to translate your python program into javascript to use p5.js and other javascript libraries.
+This branch is used for development deployment！
 
-Looking forward to your feedbacks.
-
-[https://github.com/AndersonHJB/p5py_update](https://github.com/AndersonHJB/p5py_update)
+All static resources have been compiled,and setting.py is modified
