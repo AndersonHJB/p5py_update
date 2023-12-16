@@ -1,6 +1,6 @@
 # p5py
  
-[P5py.com](http://p5py.com) lets you write p5.js programs in python.
+[P5py](#) lets you write p5.js programs in python.
 
 We use brython to translate your python program into javascript to use p5.js and other javascript libraries.
 
