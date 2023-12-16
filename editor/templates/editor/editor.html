@@ -2,7 +2,7 @@
 <html lang="en">
 {% load static %}
 <head>
-    <title>AI悦创·在线编程</title>
+    <title>p5py</title>
     <meta name="keywords" content="Python, JavaScript, p5.js">
     <meta name="description" content="">
     <link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -163,7 +163,7 @@
             </select>
         </div>
         <div class="help-link-container my-auto">
-          <a id="about" onclick="$('#about-modal').modal('show')" href="#">About AI悦创</a>
+          <a id="about" onclick="$('#about-modal').modal('show')" href="#">About p5py</a>
         </div>
         <input id="file-input" type="file" style="position:fixed;top:-1000px;"/>
     </div>
@@ -215,14 +215,12 @@
         </button>
       </div>
       <div class="modal-body text-center">
-        <h3>About AI悦创</h3>
+        <h3>About p5py</h3>
         <hr>
-        <p>code.aiyc.top lets you write p5.js programs in python. </p>
+        <p>P5py.com lets you write p5.js programs in python. </p>
         <p>We use brython to translate your python program into javascript to use p5.js and other javascript libraries.</p>
         <p>Looking forward to your feedbacks.</p>
-        <p>长期招收一对一学员，微信：</p>
-        <img src="https://img-blog.csdnimg.cn/20210611150938921.jpg" alt="公众号：AI悦创" width="258" height="258"><br/>
-        <a href="https://github.com/AndersonHJB/p5py_update">github link</a>
+        <a href="https://github.com/AndersonBY/p5py">github link</a>
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" type="button" data-dismiss="modal">close</button></div>
@@ -332,7 +330,7 @@
     var editor = ace.edit("editor");
     var code = editor.getValue();
     var blob = new Blob([code], {type: "text/plain;charset=utf-8"});
-    saveAs(blob, "aiyc.py");
+    saveAs(blob, "p5py.py");
   }
   function share() {
     var editor = ace.edit("editor");
