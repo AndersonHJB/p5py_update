@@ -26,7 +26,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '6gtfr8e-h9bq9j5m4s9#3tb=ud775s)^w6$c2pnq4kgz6ivabj'
-# SECRET_KEY = 'aiyc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -34,8 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    # "p5py.com",
-    # "www.p5py.com",
+    "http://share.bornforthis.cn/",
     # "p5py.maker.school"
 ]
 
